@@ -1,0 +1,75 @@
+.aboutMe {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 63px 24px 72px;
+	min-height: 100vh;
+	background-color: var(--dark-blue);
+}
+
+.aboutMe__content {
+	max-width: 100%;
+}
+
+.aboutMe__greeting {
+	font-size: 16px;
+	color: white;
+	opacity: 0.8;
+}
+
+.aboutMe__name {
+	margin: 12px 0;
+	font-size: 36px;
+	color: white;
+	opacity: 0.7;
+}
+
+.aboutMe__tags {
+	margin-bottom: 16px;
+	font-size: 16px;
+	color: var(--light-blue);
+}
+
+.aboutMe__image {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 32px;
+	max-width: 300px;
+	width: 100%;
+	border-radius: 12px;
+}
+
+.aboutMe__description {
+	font-size: 16px;
+	color: white;
+	line-height: 26px;
+	opacity: 0.8;
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 768px) {
+	.aboutMe {
+		padding: 48px;
+	}
+
+	.aboutMe__content {
+		position: relative;
+		margin: 0 auto;
+		max-width: 1100px;
+	}
+
+	.aboutMe__name {
+		font-size: 64px;
+	}
+
+	.aboutMe__description {
+		max-width: 60%;
+	}
+
+	.aboutMe__image {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 300px;
+	}
+}

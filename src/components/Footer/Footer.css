@@ -1,0 +1,21 @@
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: var(--dark-blue);
+}
+
+.links {
+	display: flex;
+	justify-content: space-around;
+}
+
+.item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 16px 24px;
+	color: white;
+	opacity: 50%;
+	text-decoration: none;
+}
